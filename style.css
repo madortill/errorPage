@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('assets/fonts/heebo.regular.ttf');
+}
+
+@font-face {
+    font-family: 'Heebo-Bold';
+    src: url('assets/fonts/heebo.black.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    /* Set background image */
+    background-image: url('assets/media/bgERROR.png');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.errorMsg {
+    font-size: 23rem;
+    text-align: center;
+    margin-bottom: -5%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    text-align: center;
+}
+
+.title-text {
+    color: rgb(78, 77, 77);
+    font-family: 'Heebo-Bold';
+}
+
+.text-info {
+    padding: 0% 10%;
+    text-align: center;
+    color: #aeaeae;
+}
+
+.homeBtn {
+    font-size: 1.9rem;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #6c757d;
+    box-shadow: 0px 0px 1px rgba( 15, 165, 60, 0.1 );
+    margin-top: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.homeBtn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(77, 76, 76);
+}
+
+
+.mador-till-img {
+    width: 12
+}
